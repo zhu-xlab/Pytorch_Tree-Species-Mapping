@@ -1,0 +1,26 @@
+{
+  "w": 5,
+  "h": 5,
+  "input_channels": 15,
+  "num_length": 8,
+  "num_classes": 8,
+  "num_layers": 2,
+  "hidden_dim": 256,
+  "num_heads": 4,
+  "embedding_dim": 128,
+  "patch_size": 1,
+  "model": "convlstm",
+
+
+  "train_data_path": "./data/train_data.npy",
+  "val_data_path": "./data/val_data.npy",
+  "test_data_path": "./data/test_data.npy",
+
+  "exp_name": "vit_0926",
+  "dropout": 0.05,
+  "lr": 0.0005,
+  "decay": 1e-4,
+  "num_epochs": 100,
+  "batch_size": 64,
+  "num_workers": 8
+}
